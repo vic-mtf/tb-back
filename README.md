@@ -1,4 +1,11 @@
-# tb-book
+# tb-back
 TOTANGA-BOOK apis
-## `npm or yarn start for starting server with node`
-## `npm or yarn dev-start for starting server with nodemon`
+
+This project is an apis.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start` or `yarn start` for starting server with [node](https://nodejs.org)
+### `npm dev-start` or `yarn dev-start` for starting server with [nodemon](https://www.npmjs.com/package/nodemon)
