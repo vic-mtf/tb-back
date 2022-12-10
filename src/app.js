@@ -4,8 +4,8 @@ const router = require('./routes/router');
 const accessControlAllow = require('./middlewares/accessControlAllow');
 
 const app = express();
-
 app.use(accessControlAllow);
+app.use(express.static(`${__dirname}/../public`))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
